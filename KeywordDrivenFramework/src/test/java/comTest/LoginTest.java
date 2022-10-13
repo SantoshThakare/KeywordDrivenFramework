@@ -6,9 +6,7 @@ import com.utility.KeywordDrivenEngine;
 public class LoginTest {
 private KeywordDrivenEngine keyword;
 	
-	/**
-	 * Method: To Test Login Data
-	 */
+	//To Test Login Data
 	@Test
 	public void loginTest() {
 		
