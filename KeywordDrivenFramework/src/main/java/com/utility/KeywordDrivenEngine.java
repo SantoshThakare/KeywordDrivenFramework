@@ -23,7 +23,6 @@ public class KeywordDrivenEngine extends Base {
 	private String value;
 	private Base base;
 
-	// File Path for XLSX file
 	public final String FILE_PATH = "C:\\Users\\Shree\\eclipse-workspace\\KeywordDrivenFramework\\KeywordDrivenFramework\\src\\main\\resources\\Repository\\LoginTestKeywordData.xlsx";
 
 	
@@ -31,7 +30,6 @@ public class KeywordDrivenEngine extends Base {
 
 		try {
 
-			// Taking Excel file into workbook class
 			excelFile = new FileInputStream(FILE_PATH);
 			try {
 				workbook = WorkbookFactory.create(excelFile);

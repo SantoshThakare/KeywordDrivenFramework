@@ -16,9 +16,7 @@ public class Base {
 	protected static Properties prop;
 	protected static FileInputStream file;
 
-	/** To Initialize the WebDriver
-	 * 
-	 */
+	//To Initialize the WebDriver
 	public WebDriver init_Driver(String browserName) {
 
 		if (browserName.equals("chrome")) {
@@ -29,9 +27,8 @@ public class Base {
 		return driver;
 	}
 
-	/**To Initialize the Property file
-	 * 
-	 */
+	//To Initialize the Property file
+	
 	public Properties intit_Properties() {
 		
 		prop=new Properties();
